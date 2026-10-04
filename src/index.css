@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Syne", sans-serif;
+  --font-body: "Figtree", sans-serif;
+
+  --color-ink: #14201a;
+  --color-ink-soft: #2a3a30;
+  --color-leaf: #2f5d3a;
+  --color-leaf-deep: #1b2e22;
+  --color-sage: #7a917c;
+  --color-mist: #e8efe6;
+  --color-canvas: #f2f5f0;
+  --color-gold: #c9a227;
+  --color-gold-soft: #e6c96a;
+  --color-stone: #d5dcd4;
+  --color-clay: #8b6b4a;
+
+  --shadow-lift: 0 18px 40px rgba(20, 32, 26, 0.12);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(201, 162, 39, 0.16), transparent 55%),
+      radial-gradient(900px 500px at 90% 0%, rgba(47, 93, 58, 0.14), transparent 50%),
+      linear-gradient(180deg, #eef3eb 0%, var(--color-canvas) 45%, #e7ece5 100%);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  ::selection {
+    background: rgba(47, 93, 58, 0.22);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .grain {
+    position: relative;
+  }
+
+  .grain::after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    opacity: 0.08;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    mix-blend-mode: multiply;
+  }
+}
