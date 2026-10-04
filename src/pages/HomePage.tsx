@@ -15,7 +15,7 @@ export function HomePage() {
           className="absolute inset-0"
           style={{
             background:
-              'linear-gradient(115deg, rgba(20,32,26,0.72) 0%, rgba(20,32,26,0.35) 42%, rgba(20,32,26,0.55) 100%), url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=2000&q=80") center/cover',
+              'linear-gradient(115deg, rgba(20,32,26,0.78) 0%, rgba(20,32,26,0.42) 45%, rgba(20,32,26,0.62) 100%), url("/hero-cape.jpg") center/cover',
           }}
         />
         <div
