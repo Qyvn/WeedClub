@@ -27,7 +27,7 @@ export function ShopPage() {
     <div className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-16">
       <SectionHeading
         eyebrow="B2C dispensary"
-        title="Shop FYNBOS retail."
+        title="Shop Stoned retail."
         copy="Adult-use cannabis products with transparent lab details, member pricing, and delivery to major South African metros."
       />
 

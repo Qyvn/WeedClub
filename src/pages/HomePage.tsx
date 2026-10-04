@@ -33,7 +33,7 @@ export function HomePage() {
             transition={{ duration: 0.6 }}
             className="font-display text-5xl font-extrabold tracking-tight text-mist sm:text-6xl md:text-8xl"
           >
-            FYNBOS
+            STONED
           </motion.p>
 
           <motion.h1
@@ -82,7 +82,7 @@ export function HomePage() {
         <SectionHeading
           eyebrow="Two doors, one brand"
           title="Buy for yourself. Stock your shelves."
-          copy="FYNBOS runs a full B2C dispensary and a verified B2B desk for licensed retailers, clinics, and processors across the country."
+          copy="Stoned runs a full B2C dispensary and a verified B2B desk for licensed retailers, clinics, and processors across the country."
         />
 
         <div className="mt-10 grid gap-8 md:grid-cols-2">

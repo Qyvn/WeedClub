@@ -33,7 +33,7 @@ export const products: Product[] = [
     channel: 'both',
     origin: 'Western Cape',
     description:
-      'Bright citrus and fynbos herbal notes. Daytime clarity grown under Cape sun.',
+      'Bright citrus and Cape herbal notes. Daytime clarity grown under local sun.',
     tags: ['Daytime', 'Citrus', 'Local'],
     hue: '#3d6b45',
   },

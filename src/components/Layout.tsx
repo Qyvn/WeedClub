@@ -27,7 +27,7 @@ export function Layout() {
       <header className="sticky top-0 z-40 border-b border-ink/8 bg-canvas/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 md:px-6">
           <Link to="/" className="font-display text-xl font-extrabold tracking-tight text-ink md:text-2xl">
-            FYNBOS
+            STONED
           </Link>
 
           <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
@@ -107,7 +107,7 @@ export function Layout() {
       <footer className="mt-16 border-t border-ink/10 bg-leaf-deep text-mist">
         <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-[1.4fr_1fr_1fr] md:px-6">
           <div>
-            <p className="font-display text-3xl font-bold tracking-tight">FYNBOS</p>
+            <p className="font-display text-3xl font-bold tracking-tight">STONED</p>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-mist/75">
               Licensed cannabis retail and wholesale across South Africa.
               Adult use only. Know your local regulations before purchase.
@@ -147,7 +147,7 @@ export function Layout() {
           </div>
         </div>
         <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-mist/55 md:px-6">
-          © {new Date().getFullYear()} FYNBOS (Pty) Ltd · South Africa
+          © {new Date().getFullYear()} Stoned (Pty) Ltd · South Africa
         </div>
       </footer>
     </div>

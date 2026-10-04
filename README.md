@@ -1,4 +1,4 @@
-# FYNBOS — South Africa Cannabis Dispensary
+# Stoned — South Africa Cannabis Dispensary
 
 Premium B2C + B2B cannabis ecommerce demo for South Africa, with memberships.
 

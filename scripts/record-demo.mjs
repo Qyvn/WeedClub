@@ -61,11 +61,11 @@ await browser.close()
 const recorded = fs.readdirSync(tmpDir).find((f) => f.endsWith('.webm'))
 if (!recorded) throw new Error('No Playwright video produced')
 
-const dest = path.join(outDir, 'fynbos_b2c_b2b_membership_checkout.webm')
+const dest = path.join(outDir, 'stoned_b2c_b2b_membership_checkout.webm')
 fs.copyFileSync(path.join(tmpDir, recorded), dest)
 
 // Also make an mp4 sibling for broader playback
-const mp4 = path.join(outDir, 'fynbos_b2c_b2b_membership_checkout.mp4')
+const mp4 = path.join(outDir, 'stoned_b2c_b2b_membership_checkout.mp4')
 const { spawnSync } = await import('node:child_process')
 const result = spawnSync(
   'ffmpeg',

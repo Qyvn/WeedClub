@@ -32,7 +32,7 @@ export function WholesalePage() {
 
           {submitted ? (
             <p className="mt-8 rounded-md bg-leaf/10 px-4 py-3 text-sm font-medium text-leaf">
-              Application received. A FYNBOS trade specialist will contact you
+              Application received. A Stoned trade specialist will contact you
               on the details provided.
             </p>
           ) : (
@@ -129,8 +129,8 @@ export function WholesalePage() {
             </p>
             <p className="mt-2 text-sm text-ink-soft">
               Email{' '}
-              <a className="font-semibold text-leaf underline" href="mailto:trade@fynbos.co.za">
-                trade@fynbos.co.za
+              <a className="font-semibold text-leaf underline" href="mailto:trade@stoned.co.za">
+                trade@stoned.co.za
               </a>{' '}
               for custom cultivation contracts and white-label packaging.
             </p>
